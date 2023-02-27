@@ -1,0 +1,25 @@
+.layout {
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    top: 0;
+}
+
+.container {
+    height: 80vh;
+    padding-top: 45px;
+}
+
+.content {
+    height: 80vh;
+}
+
+.footer {
+    height: 60px;
+    background-color: blue;
+}

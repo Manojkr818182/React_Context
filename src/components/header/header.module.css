@@ -1,0 +1,117 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    width: 100%;
+    padding-top: 4px;
+}
+
+/* first div */
+.brand_logo {
+    width: 180px;
+
+}
+
+/* second div */
+.toggle_icon {
+    width: 50px;
+    padding-top: 10px;
+}
+
+.mdmenuicon {
+    color: aqua;
+    font-size: xx-large;
+}
+
+.mdmenu {
+    background: none;
+    border-color: none;
+    border: unset;
+    display: none;
+}
+
+.mdmenu:hover,
+.mdmenu:focus {
+    background: none;
+    border-color: none;
+    box-shadow: none;
+    border: unset;
+}
+
+.app_canvas {
+    /* margin-left: 5px; */
+    margin-top: 60px;
+}
+
+.off_canvas {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.toggle_menu {
+    padding-top: 1px;
+}
+
+.toggle_menu li {
+    list-style: none;
+    padding: 5px 20px;
+}
+
+.toggle_menu li a {
+    text-decoration: none;
+    color: #6296f7;
+}
+
+/* third div */
+.menu {
+    width: 25%;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu ul {
+    display: flex;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 5px 20px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #222a3a;
+}
+
+/* fourth div */
+.logout_icon {
+    width: 100px;
+    padding-top: 10px;
+
+}
+
+.btn {
+     margin: 0;
+
+}
+
+
+
+@media (min-width:0px) and (max-width: 996px) {
+    .mdmenu {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .header .list {
+        display: none;
+    }
+}
